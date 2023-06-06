@@ -24,8 +24,8 @@ a:not(.btn):not(.badge):hover, a:not(.btn):not(.badge):focus, a:not(.btn):not(.b
   -------------------------------------------------------------------------*/
   button.btn,
   .btn:not(.close):not(.mfp-close), a.btn:not([href]):not([tabindex]) {
-    background-color: #145cab;
-    border-color: #145cab; }
+    background-color: #1F2D5A;
+    border-color: #1F2D5A; }
     button.btn:hover, button.btn:focus, button.btn:not(:disabled):not(.disabled):active, button.btn:not(:disabled):not(.disabled).active,
     .btn:not(.close):not(.mfp-close):hover,
     .btn:not(.close):not(.mfp-close):focus,
@@ -95,7 +95,7 @@ a:not(.btn):not(.badge):hover, a:not(.btn):not(.badge):focus, a:not(.btn):not(.b
       Headings
   -------------------------------------------------------------------------*/
   .heading-text.heading-section > h2:before {
-    background-color: #145cab; }
+    background-color: #1F2D5A; }
   
   .heading-creative strong {
     color: #145cab; }
