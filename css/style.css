@@ -20759,6 +20759,11 @@ body[data-bg-image] {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  @media(max-width: 1025px){
+    margin-top: 25%;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .team__title {
@@ -20861,6 +20866,14 @@ body[data-bg-image] {
   left: -320px;
   top: -50px;
   transition: .5s;
+  @media (max-width: 1025px) {
+    display: flex;
+    position: relative;
+    width: 500px;
+    height: auto;
+    left: 0%;
+    margin-top: -50%; 
+  }
 }
 .team_container .card .float1 p{
   color: #2F8DD8;
@@ -20933,6 +20946,20 @@ body[data-bg-image] {
   opacity: 1;
 }
 
+#Referencias .raw{
+
+  @media(max-width: 740px){
+    height: 1500px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+#Referencias .raw .team_container{
+  @media (max-width: 1025 px) {
+   margin-top: 50%; 
+  }
+}
 .team_container .card .float2 {
   position: absolute;
   z-index: 90;
@@ -20949,6 +20976,15 @@ body[data-bg-image] {
   right: -250px;
   bottom: -80px;
   transition: .5s;
+  @media (max-width: 1025px) {
+    display: flex;
+    position: relative;
+    width: 500px;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    margin-top: 120%;
+  }
 }
 .team_container .card .float2 p{
   color: #2F8DD8;
